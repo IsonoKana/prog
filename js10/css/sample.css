@@ -1,0 +1,80 @@
+body {
+  margin:0;
+  padding:0;
+  color: coral;
+  text-align: center;
+  font-size: 32px;
+  background-image: url(flo.png);
+}
+
+#drowarea{
+  padding: 0;
+  margin: auto;
+  display: block;
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+}
+
+h1{
+  position: relative;
+  margin: 30px;
+  text-align: center;
+}
+h1:before,
+h1:after {
+  position: absolute;
+  z-index: 0;
+  bottom: -10px;
+  display: block;
+  content: '';
+  border: 1em solid #f04880;
+}
+
+h1:before {
+  left: -30px;
+  border-left-width: 15px;
+  border-left-color: transparent;
+}
+
+h1:after {
+  right: -30px;
+  border-right-width: 15px;
+  border-right-color: transparent;
+}
+
+h1 span {
+  position: relative;
+  z-index: 1;
+  display: block;
+  padding: 1rem 2rem;
+  color: rgb(255, 250, 251);
+  background: #e6176d;
+}
+
+h1 span:before,
+h1 span:after {
+  position: absolute;
+  bottom: -10px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  content: '';
+  border-style: solid;
+  border-color: #b70505 transparent transparent transparent;
+}
+
+h1 span:before {
+  left: 0;
+  border-width: 10px 0 0 10px;
+}
+
+h1 span:after {
+  right: 0;
+  border-width: 10px 10px 0 0;
+}
