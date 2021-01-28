@@ -1,0 +1,127 @@
+body{
+  background-image: url(haikei.jpg);
+  margin:0;
+  padding:0;
+}
+
+header,main,#footlinks{
+  margin-left: auto;
+  margin-right: auto;
+
+}  
+header{
+  margin-top: 80px;
+}
+
+main{
+  width:1000px;
+}
+
+h1{
+  color: rgb(165, 80, 94);
+  text-align: center;
+  font-size: 70px;
+  }
+
+h2{
+  color: rgb(165, 80, 94);
+  margin-top: 50px;
+  text-align: center;
+  font-size: 70px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+nav li{
+  font-size: 30px;
+  display: block;
+  width: 350px;
+  float: left;
+  text-align: center;
+}
+
+nav a{
+  color: rgb(102, 18, 60);
+  background: rgb(255, 169, 198);
+  display: block;
+  line-height: 1.0;
+  padding: 30px 0;
+  border-left: 1px solid #fff;
+  text-align: center;
+  text-decoration: none; 
+}
+
+nav a:hover{
+  background:rgb(191, 128, 202) ;
+}
+
+main ul{
+  padding-top: 100px;
+  padding-left: 0;
+  display:table;
+  width: 1000px;
+}
+
+main li{
+  margin-top: 100px;
+  text-align: center;
+  list-style-type:none;
+  border: 1px solid rgb(143, 114, 151);
+  display:table-cell;  /* 定義 */
+  background-color:  rgb(199, 165, 211);
+  cursor: pointer;
+}
+main li:hover{
+  background: rgb(191, 128, 202) ;
+  color:#631458;
+}
+
+footer{
+  text-align: center;
+  padding: 50px 0;   
+  background: rgb(204, 44, 105);
+}
+
+footer a{
+  font-size: 30px;
+}
+
+#footlinks li{
+  display: block;
+  width: 350px;
+  float: left;
+  text-align: center;
+}
+
+#footlinks a{
+  color: rgb(211, 172, 199);
+}
+
+#footlinks a:hover{
+  color: rgb(128, 219, 255);
+}
+
+div{
+  padding-top: 0;
+  text-align: center;
+}
+
+#judgment{
+  color: rgb(165, 80, 94);
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 40px;
+}
+
+img.gu,img.tyoki,img.pa{
+  width: 200px;
+  height: 200px;
+}
+
+img.girl{
+  width: 600px;
+  height: 610px;
+}
+
+img.girlgu,img.girltyoki,img.girlpa{
+  width: 600px;
+  height: 600px;
+}

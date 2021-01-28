@@ -1,0 +1,103 @@
+body{
+    background-image: url(haikei.jpg);
+    margin:0;
+    padding:0;
+}
+
+header,main,#footlinks{
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+header{
+    margin-top: 80px;
+}
+
+h1{
+    color: rgb(165, 80, 94);
+    text-align: center;
+    font-size: 70px;
+  }
+h2{
+    width: 1000px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(165, 80, 94);
+}
+div{
+    text-align: center;
+}
+nav li{
+    font-size: 30px;
+    display: block;
+    width: 350px;
+    float: left;
+    text-align: center;
+}
+nav a{
+    color: rgb(102, 18, 60);
+    background: rgb(255, 169, 198);
+    display: block;
+    line-height: 1.0;
+    padding: 30px 0;
+    border-left: 1px solid #fff;
+    text-align: center;
+    text-decoration: none; 
+}
+nav a:hover{
+    background:rgb(191, 128, 202) ;
+}
+
+
+main li{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    display: block;
+    margin-block-start: 10px;
+    width: 1000px;
+}
+
+main a{
+    color: rgb(102, 18, 60);
+    background: rgb(199, 165, 211);
+    display: block;
+    line-height: 3.0;
+    padding: 35px 0;
+    border-left: 1px solid #fff;
+    text-align: center;
+    text-decoration: none; 
+}
+main a:hover{
+    background:rgb(191, 128, 202) ;
+}
+
+footer{
+    text-align: center;
+    padding: 50px 0;   
+    background: rgb(204, 44, 105);
+  }
+  
+  footer a{
+    font-size: 30px;
+  }
+  
+  #footlinks li{
+    display: block;
+    width: 350px;
+    float: left;
+    text-align: center;
+  }
+  
+  #footlinks a{
+    color: rgb(211, 172, 199);
+  }
+  
+  #footlinks a:hover{
+    color: rgb(128, 219, 255);
+  }
+
+  

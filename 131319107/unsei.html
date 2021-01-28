@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/unsei.css">
+
+
+<body>
+<header>
+    <meta charset="utf-8">
+    <title>(・ω・)＜運勢見てみて－！</title>
+      <h1>今日の運勢！</h1>
+    <nav>
+        <ul>
+            <li><a href="home.html">ホーム</a></li>
+            <li><a href="janken.html">じゃんけん</a></li>
+            <li><a href="quiz.html">クイズ</a></li>
+            <li><a href="unsei.html">運勢</a></li>
+            <li><a href="draw.html">おえかき</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <ul>
+            <li id="pull"><a class="button">運勢を見てみる！</a></li>
+        </ul>
+            <div id="echo"><img src="girlunsei.png" class="girlunsei"></div>
+    </main>
+    
+    <footer>
+        <div id="footlinks">
+            <li><a href="home.html">ホーム</a></li>
+            <li><a href="janken.html">じゃんけん</a></li>
+            <li><a href="quiz.html">クイズ</a></li>
+            <li><a href="unsei.html">運勢</a></li>
+            <li><a href="draw.html">おえかき</a></li>
+        </div>
+    </footer>
+    
+    <script>
+        // CLickイベントのブロック
+        const pull=document.querySelector("#pull");
+        pull.onclick=function(){
+            // 乱数を作る
+            const num = Math.ceil(Math.random()*10);
+        
+            // 乱数をIF分岐処理で分ける
+        
+        
+            // 条件に合って入ればalert()で表示
+            if(num==1){
+                const echo=document.querySelector("#echo");
+                echo.innerHTML='<img src="unsei1.png"class="un1">';
+                
+            }
+            if(num==2){
+                const echo=document.querySelector("#echo");
+                echo.innerHTML='<img src="unsei2.png" class="un2">';
+            }
+            if(num==3){
+                const echo=document.querySelector("#echo");
+                echo.innerHTML='<img src="unsei3.png"class="un3">';
+            }
+            if(num==4){
+                const echo=document.querySelector("#echo");
+                echo.innerHTML='<img src="unsei4.png"class="un4">';
+            }
+            if(num==5){
+                const echo=document.querySelector("#echo");
+                echo.innerHTML='<img src="unsei5.png"class="un5">';
+                
+            }
+            if(num==6){
+                const echo=document.querySelector("#echo");
+                echo.innerHTML='<img src="unsei6.png"class="un6">';
+            }
+            if(num==7){
+                const echo=document.querySelector("#echo");
+                echo.innerHTML='<img src="unsei7.png"class="un7">';
+            }
+            if(num==8){
+                const echo=document.querySelector("#echo");
+                echo.innerHTML='<img src="unsei7.png"class="un8">';
+            }
+            if(num==9){
+                const echo=document.querySelector("#echo");
+                echo.innerHTML='<img src="unsei7.png"class="un9">';
+            }
+            if(num==10){
+                const echo=document.querySelector("#echo");
+                echo.innerHTML='<img src="unsei7.png"class="un10">';
+            }
+        }
+        
+        
+        
+        
+        </script>
+    </body>
+    </html>
